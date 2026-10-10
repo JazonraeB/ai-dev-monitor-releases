@@ -51,7 +51,7 @@ Every cost carries a status, shown as the coloured bar on the Overview:
 | --- | --- |
 | **Authoritative** | From the provider's own billing data. Not available yet (provider APIs come in a later version). |
 | **Calculated** | Exact token counts × the published price list. Most of your cost. |
-| **Estimated** | Part of the count was missing, so that part is estimated. |
+| **Estimated** | The token counts were not recorded by a tool (for example, entered by hand), so the cost is an estimate. |
 | **Unknown** | No price for that model yet. Shown as $0 and flagged, never guessed. |
 
 Days are counted in your time zone (Settings → Dates). Exports keep timestamps in UTC.
